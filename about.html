@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>About Us</title>
+    <style>
+        .container{
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas: 
+            'left riht right';
+        }
+        #left{
+            grid-area: left;
+        }
+        #right{
+            grid-area: right;
+        }
+        .item{
+        background-color: yellow;
+        border: 3px solid black;
+        padding: 12px 23px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+          <a href=""><img src="img/logo.png" alt="" class="primelogo" /></a>
+          <div class="navsize" style="font-size: 20px">
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="#">Movies Us</a>
+            <a href="#" style="visibility: hidden">Random</a>
+            <a href="#">Kids</a>
+          </div>
+          <a href="#" style="float: right; margin: 0px 20px 0px 0px">
+            <button id="btn_nav">Login</button>
+          </a>
+          <input
+            type="text"
+            placeholder="Search.."
+            style="float: right"
+            class="search"
+          />
+        </nav>
+      </header>
+      <section>
+          <div class="container">
+            <div id="left" class="item">
+
+            </div>
+            <div id="right" class="item">
+
+            </div>
+        </div>
+      </section>
+</body>
+</html>
