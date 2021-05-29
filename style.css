@@ -178,6 +178,9 @@ footer a {
     display:flex;
     flex-direction: column;
   }
+  .primelogo{
+    margin-top: 6px;
+  }
   .nav_items{
     display: flex;
     justify-content: space-around;
